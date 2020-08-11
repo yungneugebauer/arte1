@@ -207,7 +207,7 @@ html {
 }
 
 body {
-	background: rgb(23, 54, 102);
+	background: rgb(26, 60, 112);
 }
 
 body.is-preload *,
@@ -335,10 +335,10 @@ h1.major {
 }
 
 h1.major:after {
-	background-image: -moz-linear-gradient(to right, black, blue);
-	background-image: -webkit-linear-gradient(to right, black, blue);
-	background-image: -ms-linear-gradient(to right, black, blue);
-	background-image: linear-gradient(to right, black, blue);
+	background-image: -moz-linear-gradient(to right, black, rgb(70, 38, 252));
+	background-image: -webkit-linear-gradient(to right, black, rgb(69, 69, 243));
+	background-image: -ms-linear-gradient(to right, black, rgb(68, 68, 238));
+	background-image: linear-gradient(to right, rgb(34, 31, 31), rgb(34, 34, 139));
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
@@ -3935,7 +3935,7 @@ body.is-ie #sidebar>.inner {
 	background-image: -moz-linear-gradient(to right, black, blue);
 	background-image: -webkit-linear-gradient(to right, black, blue);
 	background-image: -ms-linear-gradient(to right, black, blue);
-	background-image: linear-gradient(to right, black, blue);
+	background-image: linear-gradient(to right, rgb(27, 24, 24), rgb(67, 67, 197));
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
